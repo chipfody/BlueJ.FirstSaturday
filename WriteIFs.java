@@ -2,8 +2,8 @@
 /**
  * Write a description of class WriteIFs here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Chip Fody
+ * @version Version020720
  */
 public class WriteIFs
 {
@@ -11,6 +11,9 @@ public class WriteIFs
     public void playerDied(boolean player1) {
         // Write an IF statement that checks “player1.isAlive()” 
         // and if that’s false, calls “displayGameOver(player1)”
+        if (!isAlive(player1)) {
+            displayGameOver(player1);
+            }
      
     }
     
@@ -18,10 +21,13 @@ public class WriteIFs
         // Write an IF statement that checks the 
         // “temperature(room)” and if that check is less than 70, 
         // calls “heatOn()” else calls “coolOn()”
+        int roomTemp = tempurature(room);
+        if (roomTemp < 70) {
+            heatOn();}
+            else {coolOn();}
+            return this.ss;
 
-
-        
-        return this.ss;
+       
     }
 
     public void fireplaceControl(Object fireplace1) {
@@ -30,43 +36,50 @@ public class WriteIFs
         // AND 
         // “insideTemp()” is less than 62, 
         // calls “startAFire(fireplace1)”
+        if (outsideTemp() < 50 && insideTemp() < 62) {
+             startAFire(fireplace1);}
+            return;
+           
+       
+        
+        
 
     }
 
     public void checkFuel(double fuelLevel) {
         // Write an IF statement that checks “fuelLevel” 
         // and if that check is less than 0.08, calls “refuel()”
+        if (fuelLevel < 0.08) {
+            refuel();}
+         else {return;}
+       
 
     }
 
 
     
-    /**
-     *  Pay no attention to the code below this point.
-     * 
-     * 
-     * instance variables
-     * / 
-   int x;
-   int tt_t;
-   int tt_s;
-   int oo1, oo2;
-   String ss;
 
 
-  /**
-   * Constructor for objects of class WriteIFs
-   */
-  public WriteIFs()
-  {
-      // initialise instance variables
-      x = 0;
-      tt_t = 0;
-      tt_s = 1;
-      ss = "";
-      oo1 = 61;
-      oo2 = 49;
-  }
+       int x;
+       int tt_t;
+       int tt_s;
+       int oo1, oo2;
+       String ss;
+
+
+      /**
+       * Constructor for objects of class WriteIFs
+       */
+      public WriteIFs()
+      {
+          // initialise instance variables
+          x = 0;
+          tt_t = 0;
+          tt_s = 1;
+          ss = "";
+          oo1 = 61;
+          oo2 = 49;
+      }
 
     // associated routines
     public boolean isAlive(boolean p) {
