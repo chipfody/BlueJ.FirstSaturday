@@ -38,7 +38,7 @@ public class WriteIFs
         // calls “startAFire(fireplace1)”
         if (outsideTemp() < 50 && insideTemp() < 62) {
              startAFire(fireplace1);}
-            return;
+
            
        
         
@@ -51,7 +51,6 @@ public class WriteIFs
         // and if that check is less than 0.08, calls “refuel()”
         if (fuelLevel < 0.08) {
             refuel();}
-         else {return;}
        
 
     }

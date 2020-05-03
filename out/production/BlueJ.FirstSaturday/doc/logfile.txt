@@ -1,0 +1,29 @@
+Class documentation
+<---- javadoc command: ---->
+/private/var/folders/jf/9kyq8h2s7jb8n4bmv3cp0hr40000gp/T/AppTranslocation/EA228AAC-4D18-4C97-92EE-C2B3187C966D/d/BlueJ.app/Contents/JDK/Home/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+/private/var/folders/jf/9kyq8h2s7jb8n4bmv3cp0hr40000gp/T/AppTranslocation/EA228AAC-4D18-4C97-92EE-C2B3187C966D/d/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/private/var/folders/jf/9kyq8h2s7jb8n4bmv3cp0hr40000gp/T/AppTranslocation/EA228AAC-4D18-4C97-92EE-C2B3187C966D/d/BlueJ.app/Contents/Resources/Java/junit-4.11.jar:/private/var/folders/jf/9kyq8h2s7jb8n4bmv3cp0hr40000gp/T/AppTranslocation/EA228AAC-4D18-4C97-92EE-C2B3187C966D/d/BlueJ.app/Contents/Resources/Java/hamcrest-core-1.3.jar:/private/var/folders/jf/9kyq8h2s7jb8n4bmv3cp0hr40000gp/T/AppTranslocation/EA228AAC-4D18-4C97-92EE-C2B3187C966D/d/BlueJ.app/Contents/Resources/Java/lang-stride.jar:/private/var/folders/jf/9kyq8h2s7jb8n4bmv3cp0hr40000gp/T/AppTranslocation/EA228AAC-4D18-4C97-92EE-C2B3187C966D/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.base.jar:/private/var/folders/jf/9kyq8h2s7jb8n4bmv3cp0hr40000gp/T/AppTranslocation/EA228AAC-4D18-4C97-92EE-C2B3187C966D/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.controls.jar:/private/var/folders/jf/9kyq8h2s7jb8n4bmv3cp0hr40000gp/T/AppTranslocation/EA228AAC-4D18-4C97-92EE-C2B3187C966D/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.fxml.jar:/private/var/folders/jf/9kyq8h2s7jb8n4bmv3cp0hr40000gp/T/AppTranslocation/EA228AAC-4D18-4C97-92EE-C2B3187C966D/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.graphics.jar:/private/var/folders/jf/9kyq8h2s7jb8n4bmv3cp0hr40000gp/T/AppTranslocation/EA228AAC-4D18-4C97-92EE-C2B3187C966D/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.media.jar:/private/var/folders/jf/9kyq8h2s7jb8n4bmv3cp0hr40000gp/T/AppTranslocation/EA228AAC-4D18-4C97-92EE-C2B3187C966D/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.properties.jar:/private/var/folders/jf/9kyq8h2s7jb8n4bmv3cp0hr40000gp/T/AppTranslocation/EA228AAC-4D18-4C97-92EE-C2B3187C966D/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.swing.jar:/private/var/folders/jf/9kyq8h2s7jb8n4bmv3cp0hr40000gp/T/AppTranslocation/EA228AAC-4D18-4C97-92EE-C2B3187C966D/d/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.web.jar:/Users/cfody/Dev/Projects/BlueJ.FirstSaturday
+-d
+/Users/cfody/Dev/Projects/BlueJ.FirstSaturday/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+/Users/cfody/Dev/Projects/BlueJ.FirstSaturday/WriteIFs.java
+<---- end of javadoc command ---->
+Loading source file /Users/cfody/Dev/Projects/BlueJ.FirstSaturday/WriteIFs.java...
+/Users/cfody/Dev/Projects/BlueJ.FirstSaturday/WriteIFs.java:19: error: illegal start of expression
+    public String thermoSTAT(int room) {
+    ^
+1 error
